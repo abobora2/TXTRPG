@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <title>O Castelo</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="fox.png" alt="">
+            <p>Você é acordado lentamente por uma pequena raposa, sem reconhecer aonde está. Olhando ao redor tudo o que se vê são árvores e mais árvores, você se senta enquanto a pequena raposa ainda te olha, curiosa.</p>
+            <button class="btn-proximo" data-proximo="1">Fazer Carinho</button>
+            <button class="btn-proximo" data-proximo="2">Encarar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você tenta se aproximar mas antes de qualquer coisa ela corre assustada.</p>
+            <button class="btn-proximo" data-proximo="3">Andar</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Depois de alguns segundos, ela corre assustada.</p>
+            <button class="btn-proximo" data-proximo="3">Andar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você percebe um caminho de terra no chão e, sem mais opções, decide segui-lo. Depois de andas por alguns minutos você vê uma luz na floresta escura, ao se aproximar mais, um pequeno acampamento improvisado pode ser visto, e nele, uma pessoa se senta.
+            </p>
+            <button class="btn-proximo" data-proximo="4">Assustar</button>
+            <button class="btn-proximo" data-proximo="5">Calmo</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você se aproxima com tudo, o estranho ataca por reflexo.</p>
+                <p>Game over.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Ao se aproximar com calma e anunciar sua presença, o estranho parece confuso, "quem é você? Como veio parar aqui?"
+                Ao contar que você só acordou aqui e não se lembra de nada, o estranho parece pensativo
+                "e você, o que faz aqui?" 
+                "Eu sou Cell. Eu tenho coisas a resolver, aqui, pega" de sua mochila, Cell pega um mapa, "o único que pode te tirar daqui é o rei"</p>
+            <button class="btn-proximo" data-proximo="6">Recusar</button>
+            <button class="btn-proximo" data-proximo="7">Aceitar</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você decide que essa viagem é longa demais, viver na floresta nem é tão ruim assim afinal.</p>
+            <p>Game over.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+            <button class="btn-proximo" data-proximo="5">Voltar</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>eVocê então se despede, partindo para seu primeiro objetivo, O Rio.</p>
+            <button class="btn-proximo" data-proximo="8">Continuar</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Ao chegar no lago, você encontra duas pessoas, uma delas descansa enquanto a outra constrói um tipo de barco, e então você percebe que também precisa de um para atravessar.
+            </p>
+            <button class="btn-proximo" data-proximo="9">Tentar Só</button>
+            <button class="btn-proximo" data-proximo="10">Pedir Ajuda</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Você junta alguns pedaços de madeira com folhas longas que encontrou na praia, não é bonito mas deve funcionar, certo?... Não, aparentemente isso não foi o funciente, o barco se desmontou.</p>
+            <p>Game over.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+            <button class="btn-proximo" data-proximo="8">Voltar</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p> Você se aproxima dos dois, "Ah, oi! Nunca tinha te visto por aqui, precisa de algo?" Um deles fala, enquanto o outro continua sentado, agora te olhando curioso.
+                Você explica que precisa chegar ao castelo do rei pelo rio, ambos concordam em te ajudar com suas ferramentas. Você agora tem um barco estável e segue rumo ao sua próxima parada.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p> Você chega então em uma ponte, o ar do ambiente é muito diferente de tudo visto até então, o lugar tem névoa que parece ficar mais densa conforme você se aproxima, você segue com um mal pressentimento, uma ansiedade, como se algo fosse acontecer a qualquer momento. De repente, do meio da nevoa uma figura misteriosa surge com um grande sorriso.
+
+                "Então, você quer encontrar o rei. *Suspiro* eu odeio isso. Bla bla bla, vai ter que passar por mim bla bla bla vai ter que jogar um jogo" Ele te encara enquanto espera uma resposta.</p>
+            <button class="btn-proximo" data-proximo="12">Recusar</button>
+            <button class="btn-proximo" data-proximo="13">Aceitar</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>"Não existe escolha, acredite eu gosto disso tanto quanto você."</p>
+            <button class="btn-proximo" data-proximo="13">Aceitar</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>"Okay, é simples, par ou ímpar?".</p>
+            <button class="btn-proximo" data-proximo="14">par</button>
+            <button class="btn-proximo" data-proximo="15">Impar</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Com um movimento de mãos, o estranho faz um dado surgir e então o lança.
+                Depois de rodar por segundos que pareceram horas, o dado para com o número 6 virado para cima.</p>
+                <p>"Hm, parece que você ganhou, por favor, acaba com isso." o estranho estala os dedos e então toda névoa desaparece junto com ele e, em seu lugar, tudo o que resta é uma espada, a ponte agora está livre. Você decide levar a espada junto.</p>
+            <button class="btn-proximo" data-proximo="16">Continuar</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Com um movimento de mãos, o estranho faz um dado surgir e então o lança.
+                Depois de rodar por segundos que pareceram horas, o dado para com o número 6 virado para cima.</p>
+            <p>"Olha, eu deveria te inexistir agora mas.. por favor, só acaba com isso logo." o estranho estala os dedos e então toda névoa desaparece junto com ele e, em seu lugar, tudo o que resta é uma espada, a ponte agora está livre. Você decide levar a espada junto.</p>
+            <button class="btn-proximo" data-proximo="16">Continuar</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Seguindo em frente, o sol já começa a se por, você não sabe dizer quanto tempo passou desde que você chegou aqui, parecem horas, dias, minutos, anos, tudo ao mesmo tempo. Após mais um tempo de caminhada, você chega em um lindo jardim, ao entrar ali, você sente algo te seguindo.
+                Poucos segundos se passam antes da maior cobra que você já viu aparecer e, para sua surpresa, começar a falar "Veja só o que temos aqui, perdido? Com fome? Aqui, come uma fruta"
+                A cobra te oferece uma maçã.</p>
+            <button class="btn-proximo" data-proximo="17">Aceitar</button>
+            <button class="btn-proximo" data-proximo="18">Recusar</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Você percebe que realmente não comeu nada desde que chegou, que mal poderia ter?
+                De repente, tudo faz sentido, você sente como se uma pergunta no fundo da sua mente fosse respondida finalmente, você sabe de tudo, mas saber tudo é perder tudo, agora tudo o que você pode fazer é observar enquanto assiste você mesmo como mais um dos guardas desse castelo.</p>
+                <p>Game over.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+            <button class="btn-proximo" data-proximo="16">Voltar</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <p>"Ah vamos, você sabe que quer. É só uma mordida. O que poderia dar errado?"</p>
+            <button class="btn-proximo" data-proximo="17">Aceitar</button>
+            <button class="btn-proximo" data-proximo="19">Recusar</button>
+        </div>
+        <div class="passo" id="passo-19">
+            <p>"Você não é como eles.." a cobra se transforma, agora com a forma de um homem "Talvez.. você consiga parar ele. Nao resta muito tempo, no portão você vai encontrar um anjo, entrega isso pra ele" a cobra te entrega um copo com tampa "não precisa dizer nada, ele vai entender."</p>
+            <button class="btn-proximo" data-proximo="20">Continuar</button>
+        </div>
+        <div class="passo" id="passo-20">
+            <p>Seguindo mais um pouco pelo jardim, você finalmente chega ao grande e imponente Castelo, na porta, um anjo aguarda "Oh, ola meu bem, o que faz aqui... O rei? Mil perdões, mas voce não pode entrar."</p>
+            <button class="btn-proximo" data-proximo="21">Insistir</button>
+            <button class="btn-proximo" data-proximo="22">Entregar</button>
+        </div>
+        <div class="passo" id="passo-21">
+            <p> "Eu sinto muito mesmo, meu bem, mas não será possível."</p>
+            <button class="btn-proximo" data-proximo="21">Insistir</button>
+            <button class="btn-proximo" data-proximo="22">Entregar</button>
+        </div>
+        <div class="passo" id="passo-22">
+            <p>"Oh. Entendo."
+                O anjo então sai do caminho, você finalmente chegou, ao entrar, as portas se fecham atrás de você.</p>
+            <button class="btn-proximo" data-proximo="23">Continuar</button>
+        </div>
+        <div class="passo" id="passo-23">
+            <p> Você não sabia o que te esperava dentro desse castelo, mas uma pilha de ouro definitivamente não estava entre suas suspeitas, você olha ao redor e não vê mais nada no meio de uma névoa fraca.</p>
+            <button class="btn-proximo" data-proximo="24">Correr</button>
+            <button class="btn-proximo" data-proximo="25">Andar</button>
+        </div>
+        <div class="passo" id="passo-24">
+            <p>Você corre sem pensar duas vezes mas, assim que chega no tesouro ele desaparece. Você vira pra traz a tempo de ver um ser prestes a te atacar.
+
+                Tudo acontece muito rápido e antes de você conseguir reagir de qualquer forma, o ataque é bloqueado por uma pessoa familiar, cell.</p>
+            <button class="btn-proximo" data-proximo="26">Continuar</button>
+        </div>
+        <div class="passo" id="passo-25">
+            <p>Você anda com cuidado, como desconfiança de que tenha uma armadilha e quando você estava prestes a chegar, uma voz familiar vinda de traz te faz parar no lugar
+                "BILL." Era cell.
+                
+                O ouro desaparece enquanto um ser surge no lugar.</p>
+            <button class="btn-proximo" data-proximo="26">Continuar</button>
+        </div>
+        <div class="passo" id="passo-26">
+            <p>"CUIDADO" você percebe que o ser vai atacar novamente</p>
+            <button class="btn-proximo" data-proximo="27">Atacar</button>
+            <button class="btn-proximo" data-proximo="28">Esquivar</button>
+        </div>
+        <div class="passo" id="passo-27">
+            <p> Sua primeira reação é usar a espada que ganhou mais cedo, mas a espada não era forte o suficiente sozinha.</p>
+            <p>Game over.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+            <button class="btn-proximo" data-proximo="26">Voltar</button>
+        </div>
+        <div class="passo" id="passo-28">
+            <p>Graças ao aviso, você desvia no último segundo, saindo sem nenhuma ferida grave.</p>
+            <button class="btn-proximo" data-proximo="29">Continuar</button>
+        </div>
+        <div class="passo" id="passo-29">
+            <p> "AGORA" Você e cell atacam a coisa ao mesmo tempo. Um som terrível sai da criatura enquanto ela começa a se corromper e desaparecer lentamente.</p>
+
+                <p> névoa se dissipa completamente e, do chão surge uma figura. "Vocês me salvaram e agora, merecem uma recompensa" </p>
+            <button class="btn-proximo" data-proximo="30">Continuar</button>
+        </div>
+        <div class="passo" id="passo-30">
+            <p>O rei faz alguns movimentos com a mão e o ratinho no ombro de Cell começa a flutuar e se transformar, tomando a forma de um homem, ambos se abraçam e você escuta eles sussurrando algo em uma língua que você não entende.</p>
+
+               <p> "E você, meu jovem, você quem libertou todos nós, o que deseja" apenas uma resposta parece certa nesse momento e antes mesmo de você dizer-la, o rei já entendeu.</p>
+            <button class="btn-proximo" data-proximo="31">Continuar</button>
+        </div>
+        <div class="passo" id="passo-31">
+            <p>eVocê então acorda na sua cama. Ninguém nunca acreditou em você, mas você sabe que isso tudo foi real e não só mais um sonho. Você então passa a estudar qualquer coisa similar ao que você viveu, se mantendo na esperança de um dia entender o que foi isso. Quem sabe um dia você consegue se encontrar com eles de novo.</p>
+            <p>Fim?</p>
+            <button class="btn-proximo" data-proximo="0">Jogar Novamente</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
